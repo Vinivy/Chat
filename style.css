@@ -66,6 +66,7 @@ header {
   height: 48px;
   width: 20px;
 
+  cursor: pointer;
 }
 /*Cabeçario feito 👆*/
 main {
@@ -76,7 +77,6 @@ main {
   width: 880px;
   height: 66px;
 
-  background-color: #000;
   color: #E1E1E6;
 }
 
@@ -165,3 +165,50 @@ main {
   flex-direction: column;
 }
 
+.menssegeVc2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 110px;
+  height: 42px;
+
+  background: #00B37E;
+  border-radius: 8px 8px 0px 8px;
+
+  margin: 8px 0 0 0;
+}
+
+/*area de enviar as menssagens*/
+#Enviar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 880px;
+  height: 52px;
+  
+  background: #00B37E;
+  border-radius: 999px;
+}
+
+#Enviar input {
+  width: 750px;
+  height: 52px;
+
+  background: transparent;
+  color: #fff;
+  outline: none;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+#Enviar img {
+  cursor: pointer;
+} 
